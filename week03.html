@@ -11,7 +11,7 @@
 
       body {
         font-size: 12px;
-        background-color:dimgrey;
+        background-color:cornsilk;
         font-family: Arial, Helvetica, sans-serif;
       }
 
@@ -65,7 +65,31 @@
 
       a {
         text-decoration: none;
-        color:blue;
+        color:red;
+      }
+
+      a:hover {
+        color: beige;
+      }
+
+      #text {
+        background-color: blue;
+        text-align: center;
+        font-size: 1.2rem;
+
+      }
+
+      #text > p {
+        width: 80%;
+        text-align: center;
+        margin: auto;
+      }
+      
+      .nathans-contributions {
+        width: 80%;
+        margin: auto;
+        color: white;
+        margin-top: 30px;
       }
 
     </style>
@@ -73,6 +97,11 @@
       /* #1 */
       body {
         font-size: 16px;
+      }
+
+      /*This is to hide nathans contributions div*/
+      .nathans-contributions {
+        display:none;
       }
 
     </style>
@@ -118,6 +147,10 @@
         border: 8px groove darkcyan;
       }
 
+      /*This is to hide nathans contributions div*/
+      .nathans-contributions {
+        display:none;
+      }
     </style>
     <style>
       /* #3 */
@@ -125,6 +158,10 @@
         font-size: 8px;
       }
 
+      /*This is to hide nathans contributions div*/
+      .nathans-contributions {
+        display:none;
+      }
     </style>
 
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
@@ -163,6 +200,12 @@
           <h1>Instructions</h1>
           <p>Please modify this page to include a description of each stylesheet, including anything clever that
             you did to achieve a given effect. Please also include the contributors to a given stylesheet.</p>
+            <div class="nathans-contributions">
+              <p>Welcome to Nathan Rigg's style sheet. I used two things I haven't used before, text shadow and text skew. 
+                I also used the child combinator (>) which I have not used much before, this project helped me recognize
+                the use of some of these css options.
+              </p>
+            </div>
         </div> <!-- text -->
         <div id="sidebar">
           <h3>Grading</h3>
