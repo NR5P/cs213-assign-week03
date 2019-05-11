@@ -92,11 +92,102 @@
         margin-top: 30px;
       }
 
+      /* this removes joeys contributions form everyone elses stylesheet */
+      .joeys-contributions {
+        display: none;
+      }
+
     </style>
     <style>
       /* #1 */
+      @import url('//fonts.googleapis.com/css?family=Caveat Brush');
+      @import url('//fonts.googleapis.com/css?family=Montserrat');
+
       body {
-        font-size: 16px;
+      background-color: #E7717D;
+      background-image: linear-gradient(to left, #E7717D, #E5808A, #E58B95, #EAA1A9);
+      padding: 0 200px;
+      }
+
+      h1 {
+      font-family:'Caveat Brush';
+      font-size: 72px;
+      color: white;
+      text-align: center;
+      }
+
+      h3 {
+      font-family:'Caveat Brush';
+      color: white;
+      text-align: center;
+      }
+
+      p {
+      font-family: 'Caveat Brush';
+      font-size: 15px;
+      text-align: center;
+      color: white;
+      }
+
+      a {
+      background-color: #C2CAD0;
+      color: white;
+      padding: 1em 1.5em;
+      margin: 10px 23px 0;
+      text-decoration: none;
+      text-transform: uppercase;
+      display: inline-block;
+      }
+
+      a:hover {
+      background-color: #AFD275;
+      color: #7E685A;
+      }
+
+      a:active {
+      background-color: #E7717D;
+      color: white;
+      }
+
+      ul {
+      list-style-type: none;
+      margin-left: auto;
+      margin-right: auto;
+      padding: 0;
+      }
+
+      li {
+      font: 200 20px/1.5 Montserrat, Verdana, sans-serif;
+      border-bottom: 1px solid #ccc;
+      }
+
+      li:last-child {
+      border: none;
+      }
+
+      li {
+      text-decoration: none;
+      color: white;
+      display: block;
+      width: 200px;
+
+      -webkit-transition: font-size 0.3s ease, background-color 0.3s ease;
+      -moz-transition: font-size 0.3s ease, background-color 0.3s ease;
+      -o-transition: font-size 0.3s ease, background-color 0.3s ease;
+      -ms-transition: font-size 0.3s ease, background-color 0.3s ease;
+      transition: font-size 0.3s ease, background-color 0.3s ease;
+      }
+
+      li:hover {
+      font-size: 30px;
+      background-color: #AFD275;
+      color: #7E685A;
+      }
+
+      div#bottom {
+      text-align: center;
+      font-family: 'Caveat Brush';
+      color: white;
       }
 
       /*This is to hide nathans contributions div*/
@@ -151,6 +242,10 @@
       .nathans-contributions {
         display:none;
       }
+      /* this removes joeys contributions form everyone elses stylesheet */
+      .joeys-contributions {
+        display: none;
+      }
     </style>
     <style>
       /* #3 */
@@ -161,6 +256,10 @@
       /*This is to hide nathans contributions div*/
       .nathans-contributions {
         display:none;
+      }
+      /* this removes joeys contributions form everyone elses stylesheet */
+      .joeys-contributions {
+        display: none;
       }
     </style>
 
@@ -204,6 +303,14 @@
               <p>Welcome to Nathan Rigg's style sheet. I used two things I haven't used before, text shadow and text skew. 
                 I also used the child combinator (>) which I have not used much before, this project helped me recognize
                 the use of some of these css options.
+              </p>
+            <div class="joeys-contributions">
+              <p>
+                I did a linear-gradient for the back ground.
+                I added a google font.
+                I added a reactive unordered list.
+                I added link button and then added active and hover attibutes.
+                I added some link buttons.
               </p>
             </div>
         </div> <!-- text -->
